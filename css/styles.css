@@ -36,13 +36,29 @@ p {
 	max-width: calc(550px - 20px);
 	font-weight: 600;
   text-indent: 1em;
+  text-align: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
+  text-align: justify;
 	font-kerning: auto;
 }
 
+p {
+  max-width: calc(620px - 20px);
+  font-weight: 600;
+  text-indent: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  font-kerning: auto;
+}
+
+iframe{
+
+}
+
 .wrapper{
-    background-color: rgba(250,250,250,0.5);
+  background-color: rgba(250,250,250,0.5);
   padding: 5px;
   max-width: 960px;
   width: 95%;
@@ -73,7 +89,7 @@ p {
   margin: 2px;
   padding: 2%;
   flex-basis: 40%;
-  max-width: 600px;
+  max-width: 640px;
 }
 
 .div-image{
@@ -90,12 +106,11 @@ p {
 	height: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640) {
   
   .header{
     margin-left: 0%;
   }
-
 
 .contact{
   text-align: center;
